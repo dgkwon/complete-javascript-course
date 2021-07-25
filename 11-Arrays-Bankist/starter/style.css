@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #444;
   background-color: #f3f3f3;
   height: 100vh;
@@ -87,10 +87,12 @@ nav {
 .app {
   position: relative;
   max-width: 100rem;
-  margin: 4rem auto;
+  /* margin: 4rem auto; */
+  margin: 3rem auto;
   display: grid;
   grid-template-columns: 4fr 3fr;
-  grid-template-rows: auto repeat(3, 15rem) auto;
+  /* grid-template-rows: auto repeat(3, 15rem) auto; */
+  grid-template-rows: auto repeat(3, 14rem) auto;
   gap: 2rem;
 
   /* NOTE This creates the fade in/out anumation */
